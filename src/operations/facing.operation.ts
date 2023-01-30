@@ -80,21 +80,21 @@ export class FacingOperation extends Operation<FacingOperationProps> {
   }
 }
 
-const op = new FacingOperation({
-  stock: {
-    width: 100,
-    height: 10,
-    depth: 100,
-  },
-  widthOfCut: 1,
-  depthOfCut: 2,
-  toolDiameter: 3.175,
-  cuttingFeedRate: 1600,
-  travelFeedRate: 2400,
-  plungeFeedRate: 200,
-  leadInFeedRate: 200,
-  zPasses: 2,
-  cutBothWays: true,
-});
-
-op.generate().writeToFile('facing').calculateStats();
+// const op = new FacingOperation({
+//   stock: {
+//     width: 100,
+//     height: 10,
+//     depth: 100,
+//   },
+//   widthOfCut: 1,
+//   depthOfCut: 2,
+//   toolDiameter: 3.175,
+//   cuttingFeedRate: 1600,
+//   travelFeedRate: 2400,
+//   plungeFeedRate: 200,
+//   leadInFeedRate: 200,
+//   zPasses: 2,
+//   cutBothWays: true,
+// });
+//
+// op.generate().writeToFile('facing').calculateStats();

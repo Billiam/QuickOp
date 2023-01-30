@@ -84,22 +84,22 @@ export class PolygonOperation extends Operation<PolygonProps> {
   }
 }
 
-const op = new PolygonOperation({
-  numberOfSides: 6,
-  sideLength: 20,
-  widthOfCut: 1,
-  depthOfCut: 2,
-  zPasses: 3,
-  stock: {
-    width: 20,
-    depth: 20,
-    height: 201,
-  },
-  toolDiameter: 3,
-  travelFeedRate: 100,
-  plungeFeedRate: 100,
-  cuttingFeedRate: 100,
-  leadInFeedRate: 100,
-});
-
-op.generate().writeToFile('polygon.gcode').calculateStats();
+// const op = new PolygonOperation({
+//   numberOfSides: 6,
+//   sideLength: 20,
+//   widthOfCut: 1,
+//   depthOfCut: 2,
+//   zPasses: 3,
+//   stock: {
+//     width: 20,
+//     depth: 20,
+//     height: 201,
+//   },
+//   toolDiameter: 3,
+//   travelFeedRate: 100,
+//   plungeFeedRate: 100,
+//   cuttingFeedRate: 100,
+//   leadInFeedRate: 100,
+// });
+//
+// op.generate().writeToFile('polygon.gcode').calculateStats();

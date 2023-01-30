@@ -54,20 +54,20 @@ export class SpiralFacingOperation extends Operation<SpiralFacingOperationProps>
   }
 }
 
-const op = new SpiralFacingOperation({
-  stock: {
-    width: 100,
-    height: 10,
-    depth: 100,
-  },
-  widthOfCut: 1,
-  depthOfCut: 2,
-  toolDiameter: 3.175,
-  cuttingFeedRate: 1600,
-  travelFeedRate: 2400,
-  plungeFeedRate: 200,
-  leadInFeedRate: 200,
-  zPasses: 2,
-});
-
-op.generate().writeToFile('spiral-facing').calculateStats();
+// const op = new SpiralFacingOperation({
+//   stock: {
+//     width: 100,
+//     height: 10,
+//     depth: 100,
+//   },
+//   widthOfCut: 1,
+//   depthOfCut: 2,
+//   toolDiameter: 3.175,
+//   cuttingFeedRate: 1600,
+//   travelFeedRate: 2400,
+//   plungeFeedRate: 200,
+//   leadInFeedRate: 200,
+//   zPasses: 2,
+// });
+//
+// op.generate().writeToFile('spiral-facing').calculateStats();
